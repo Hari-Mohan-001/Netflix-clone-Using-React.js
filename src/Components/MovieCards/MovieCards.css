@@ -1,0 +1,35 @@
+.cards_row{
+    margin-left: 15px;
+    color: white;
+}
+
+.cards{
+     display: flex;
+     padding: 20px;
+     overflow-x: scroll;
+     overflow-y:visible;
+}
+
+.cards::-webkit-scrollbar{
+    display: none;
+}
+
+.card{
+    cursor: pointer;
+    max-height: 220px;
+    margin-right: 12px;
+}
+
+.small{
+    cursor: pointer;
+    max-height: 160px;
+    margin-right: 10px;
+}
+
+.small:hover{
+    transform: scale(1.1);
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
